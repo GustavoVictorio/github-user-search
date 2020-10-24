@@ -8,6 +8,10 @@
     color: #262626;
 }
 
+.search-btn{
+    color: #ffffff;
+}
+
 .input-search {
     width: 675px;
     height: 40px;
@@ -35,24 +39,32 @@
 
 .user-container {
     width: 1250px;
-    
     margin-top: 55px;
     background: #f5f5f5;
     border-radius: 8px;
 }
 .user-content {
     padding: 25px 25px 30px 30px;
+
+    .btn {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
 }
 
 .user-img {
     width: 280px;
     height: 280px;
+    position: absolute;
+
+    img {
+        width: 100%;
+    }
 }
 
 .user-info-top {
-    display: inline-block;
     vertical-align: top;
-    margin-left: 45px;
+    margin-left: 325px;
 }
 
 .sp {
@@ -104,9 +116,4 @@
     border-radius: 4px;
     margin-bottom: 5px;
     padding: 8px 10px;
-}
-
-.btn{
-    margin-top: 20px;
-    margin-bottom: 30px;
 }
