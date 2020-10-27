@@ -11,7 +11,7 @@ const Home = () => (
         <div className="home-text f-m">
             Bem-vindos ao desafio do capítulo 3 do Bootcamp DevSuperior.
             Favor observar as instruções passadas no capítulo sobre a elaboração deste projeto.<br />
-            Este design foi adaptado a partir de Ant Design System for Figma, de Mateusz Wierzbicki: antforfigma@gmail.com
+            Este design foi adaptado a partir de Ant Design System for Figma, de Mateusz Wierzbicki: <span>antforfigma@gmail.com</span>
         </div>
         <Link to="/search">
             <ButtonIcon text="Começar" />

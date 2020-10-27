@@ -8,7 +8,7 @@
     color: #262626;
 }
 
-.search-btn{
+.search-btn {
     color: #ffffff;
 }
 
@@ -116,4 +116,23 @@
     border-radius: 4px;
     margin-bottom: 5px;
     padding: 8px 10px;
+    color: #737373;
+}
+
+.f-z {
+    font-style: normal;
+    font-weight: normal;
+}
+
+.loader-container {
+    display: flex;
+}
+
+.left-loader {
+    margin-left: 15px;
+}
+
+.right-loader {
+    margin-top: 25px;
+    margin-left: -55px;
 }
